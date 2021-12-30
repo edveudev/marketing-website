@@ -1,0 +1,527 @@
+.shape1 {
+    background-image: url(/assets/images/shape1b.png); 
+    background-position: right; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 55em; 
+    top: -15em; 
+    position: relative; 
+    z-index: 0; 
+    margin: 0; 
+    padding: 0;
+}
+
+@media screen {
+    
+}
+
+.top-left-div {
+    width: 100%; 
+    height: 45em;
+    z-index: -4;
+    padding-top: 5em;
+    padding-left: 10em !important;
+    font-family: mont-thin;
+}
+
+.top-left-div h2 {
+    font-size: 50px;
+    font-family: mont-thin;
+}
+
+.top-left-div p {
+    font-size: 24px;
+    font-family: mont-thin;
+}
+
+.top-left-div button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    position: static;
+    width: 220px;
+    height: 56px;
+    left: 0px;
+    top: 282px;
+    background: linear-gradient(92.35deg, #52C6B1 15.49%, #52C680 93.22%);
+    border: 0;
+    border-radius: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 0px;
+    color: white;
+    font-family: mont;
+}
+
+.who-edveu {
+    padding: 5em 10em 5em 10em;
+}
+
+.who-edveu h1 {
+    width: 100%;
+    text-align: center;
+    font-family: mont-reg;
+    font-size: 48px;
+}
+
+.who-edveu p {
+    width: 100%;
+    text-align: center;
+    font-family: mont-light;
+    padding: 1em 10em 0em 10em;
+    font-size: 20px;
+}
+
+.shape2 {
+    height: 40em !important; 
+    background-image: url(/assets/images/shape2a.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.what-we-do {
+    padding: 7em 10em 7em 10em;
+}
+
+.what-we-do h1 {
+    width: 100%;
+    text-align: center;
+    font-family: mont-reg;
+    font-size: 48px;
+}
+
+.what-we-do-row {
+    padding: 1em 0;
+    width: 110%;
+}
+
+.what-we-do-icon {
+    text-align: center;
+    padding: 3em 0;
+    height: 8em;
+}
+
+.what-we-do-text {
+    padding: 1em 0;
+    height: 8em;
+}
+
+.what-we-do-text h3 {
+    font-family: mont-reg;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.what-we-do-text p {
+    font-family: mont-light;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.what-we-do-button {
+    padding: 0 2em;
+}
+
+.what-we-do-button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    position: static;
+    width: 220px;
+    height: 56px;
+    left: 0px;
+    top: 282px;
+    background: linear-gradient(92.35deg, #52C6B1 15.49%, #52C680 93.22%);
+    border: 0;
+    border-radius: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 0px;
+    color: white;
+    font-family: mont;
+}
+
+.our-goals {
+    height: 100%;
+    margin-top: 15em;
+    margin-bottom: 8em;
+}
+
+.our-goals h1 {
+    width: 100%;
+    text-align: center;
+    font-family: mont-reg;
+    font-size: 48px;
+    padding-bottom: 1em;
+}
+
+.our-goals h3 {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-family: mont-reg;
+}
+
+.our-goals p {
+    padding-bottom: 1em;
+    font-family: mont-light;
+}
+
+.shape3 {
+    height: 40em !important; 
+    background-image: url(/assets/images/shape3a.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.divider1 {
+    height: 20em;
+    margin-top: 10em;
+    margin-bottom: -5em;
+    background-image: url(/assets/images/shape4.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.solutions h1 {
+    width: 100%;
+    text-align: center;
+    font-family: mont-reg;
+    font-size: 48px;
+    padding-bottom: 1em;
+}
+
+.solutions-block {
+    background: rgba(226, 240, 255, 0.72);
+    border-radius: 30px;
+    margin: 1em 1em 1em 0;
+    padding: 1em 0;
+}
+
+.solutions h3 {
+    font-family: mont-reg;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.solutions p {
+    font-family: mont-light;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.solutions svg {
+    margin-top: 2em;
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url('/assets/fonts/Mont-Trial-Bold.woff');
+}
+
+@font-face {
+    font-family: 'mont-reg';
+    src: url('/assets/fonts/Mont-Trial-Regular.woff');
+}
+
+@font-face {
+    font-family: 'mont-thin';
+    src: url('/assets/fonts/Mont-Trial-Thin.woff');
+}
+
+@font-face {
+    font-family: 'mont-black';
+    src: url('/assets/fonts/Mont-Trial-Black.woff');
+}
+
+@font-face {
+    font-family: 'mont-semibold';
+    src: url('/assets/fonts/Mont-Trial-SemiBold.woff');
+}
+
+@font-face {
+    font-family: 'mont-light';
+    src: url('/assets/fonts/Mont-Trial-Light.woff');
+}
+
+/* BODY STYLING */
+body {
+    font-family: 'mont', sans-serif;
+}
+
+body.build-recipes {
+    background-color: #67921D;
+}
+
+body.find-recipe {
+    background-color: #E3690E;
+}
+/* END BODY STYLING */
+
+/* HEADER STYLING */
+.altr-menu-color header {
+    color: white!important;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar>.container-fluid {
+    display: block;
+    flex-wrap: inherit;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.top-menu-nav {
+    margin: 10px;
+    padding: 30px;
+}
+
+.top-menu-links {
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+    color: #46444B;
+    font-weight: 300;
+}
+
+.navbar-nav {
+    padding-top: 0px;
+
+}
+
+a.nav-link {
+    padding-top: 20px;
+    color: #373D52;
+}
+
+.edveu-logo {     
+    font-family: 'Mont';
+    font-style: normal;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-brand {
+    color: #464545;
+}
+
+.top-menu a.edveu-logo:hover {
+    color: #464545;
+    opacity: 100%;
+}
+
+ul.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+a.dropdown-item:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+
+.dropdown-toggle::after {
+    margin-left: 0.255em !important;
+    vertical-align: 0.255em !important;
+    content: "" !important;
+    border: solid black !important;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block !important;
+    padding: 3px !important;
+    -webkit-transform: rotate(45deg) !important;
+}
+
+.dropdown-toggle {
+    font-family: 'mont-semibold';
+    font-size: 20px;
+    color: #3A3A3A !important;
+}
+
+.altr-menu-color .top-menu a.edveu-logo:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.altr-menu-color .navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #46444B;
+}
+
+.top-menu-links>.navbar-nav a.nav-link:hover {
+    color: #46444B;
+    opacity: 80%;
+}
+
+.altr-menu-color .top-menu-links>.navbar-nav a.nav-link:hover {
+    color: white;
+    opacity: 80%;
+}
+
+.altr-menu-color>.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.altr-menu-color>.top-menu a:hover, a:active {
+    color: white;
+    opacity: 50%;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.90);
+    border-color: rgba(0,0,0,.9);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.top-menu-links-right a {
+    width: 140px;
+
+    /* Buttons */
+
+    font-family: mont-reg;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 0px;
+	text-decoration:none;
+}
+
+
+.top-menu-links-right a:hover, a:active {
+    color: #ffffff;
+}
+
+/* END HEADER STYLING */
+
+.footer {
+    max-width: 100% !important;
+    padding-top: 10em;
+}
+
+.footer-left {
+    background-image: url(/assets/images/footer-shape1.png); 
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 372px; 
+    top: 0m; 
+    position: relative; 
+    z-index: 0; 
+    margin: 0; 
+    padding-top: 3em;
+    padding-left: 3em !important;
+}
+
+.footer-left {
+
+}
+
+.footer-logo {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.edveu-logo-footer {
+    font-family: 'Mont';
+    font-style: normal;
+    font-size: 1.2em;
+    color: #3A3A3A;
+    text-decoration: none;
+    padding-left: 10px;
+    position: absolute;
+    padding-top: 12px;
+}
+
+ul.footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.footer-menu li {
+    float: left;
+  }
+
+  .footer-menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.footer-left-text {
+    padding-left: 1em;
+    padding-top: 2em;
+    font-family: mont-light;
+}
+
+
+
+
+
+
+
+
+
