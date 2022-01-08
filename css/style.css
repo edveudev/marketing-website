@@ -28,6 +28,10 @@
     src: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/fonts/Mont-Trial-Light.woff) format('woff');
 }
 
+html {
+    font-family: 'mont', sans-serif;
+   }
+
 .shape1 {
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape1b.png); 
     background-position: right; 
