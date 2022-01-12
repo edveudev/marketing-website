@@ -28,9 +28,441 @@
     src: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/fonts/Mont-Trial-Light.woff) format('woff');
 }
 
-html {
-    font-family: 'mont', sans-serif;
-   }
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/********************************************** HEADER STYLING *********************************************************/
+/********************************************** HEADER STYLING *********************************************************/
+/********************************************** HEADER STYLING *********************************************************/
+/********************************************** HEADER STYLING *********************************************************
+
+.altr-menu-color header {
+    color: white!important;
+}
+
+.navbar>.container-fluid {
+    display: block;
+    flex-wrap: inherit;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.top-menu-nav {
+    margin: 10px;
+    padding: 30px;
+}
+
+.top-menu-links {
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+    color: #46444B;
+    font-weight: 300;
+}
+
+.navbar-nav {
+    padding-top: 0px;
+
+}
+
+a.nav-link {
+    padding-top: 20px;
+    color: #373D52;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.edveu-logo {     
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-brand {
+    color: #464545;
+}
+
+.top-menu a.edveu-logo:hover {
+    color: #464545;
+    opacity: 100%;
+}
+
+ul.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+a.dropdown-item:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+
+.dropdown-toggle::after {
+    margin-left: 0.255em !important;
+    vertical-align: 0.255em !important;
+    content: "" !important;
+    border: solid black !important;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block !important;
+    padding: 3px !important;
+    -webkit-transform: rotate(45deg) !important;
+}
+
+.dropdown-toggle {
+    font-weight: 200;
+    font-size: 20px;
+    color: #3A3A3A !important;
+}
+
+.altr-menu-color .top-menu a.edveu-logo:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.altr-menu-color .navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #46444B;
+}
+
+.top-menu-links>.navbar-nav a.nav-link:hover {
+    color: #46444B;
+    opacity: 80%;
+}
+
+.altr-menu-color .top-menu-links>.navbar-nav a.nav-link:hover {
+    color: white;
+    opacity: 80%;
+}
+
+.altr-menu-color>.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.altr-menu-color>.top-menu a:hover, a:active {
+    color: white;
+    opacity: 50%;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.90);
+    border-color: rgba(0,0,0,.9);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.top-menu-links-right a {
+    width: 140px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 0px;
+	text-decoration:none;
+}
+
+.top-menu-links-right a:hover, a:active {
+    color: #ffffff;
+}
+
+/********************************************** END HEADER STYLING *********************************************************/
+/********************************************** END HEADER STYLING *********************************************************/
+/********************************************** END HEADER STYLING *********************************************************/
+
+.bg-light {
+    z-index: 1;
+    background-color: transparent !important;
+}
+
+.navbar-brand.edveu-logo-pic {
+    padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-brand {
+    
+}
+
+.edveu-logo-text {     
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-size: 2em;
+    padding-top: 10px;
+    color: #3A3A3A;
+    text-decoration: none;
+    margin-right: 10rem;
+}
+
+.header-signin-btn {
+    width: 140px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 0px;
+	text-decoration:none;
+}
+
+a:hover.header-signin-btn, a:active.header-signin-btn  {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu  {
+    border: 0px
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+    color: #373D52;
+}
+
+#
+.header-signin-btn {
+    width: 140px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 0px;
+	text-decoration:none;
+}
+
+.dropdown-item {
+    padding: 0;
+
+}
+
+a:hover.header-signin-btn, a:active.header-signin-btn  {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu  {
+    border: 0px
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+    color: #373D52;
+    opacity: 60%;
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+#navbarDropdown {
+    color: #3A3A3A;
+    opacity: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* ---------------------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------------------- */
+
+@media only screen and (min-width: 1028px) {
+    
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media only screen and (min-width: 276px) {
+    /* HEADER STYLING FOR PHONE */
+    .edveu-logo-text {
+        margin-right: 0rem;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 0px;
+    }
+
+    .navbar>.container-fluid {
+        justify-content: left;
+    }
+
+    .navbar-brand.edveu-logo-pic {
+        padding-left: 0.5rem;
+    }
+    
+    .navbar-light .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-bottom: 10px;
+    }
+
+    .navbar-expand-lg .navbar-collapse ul {
+        padding-right: 10px;
+        text-align: end;
+        
+    }
+
+    .navbar-expand-lg .navbar-collapse .header-signin-btn {
+        background-color: darkblue;
+        float: right;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+        color: #373D52;
+        opacity: 60%;
+        font-size: 18px;
+        margin-left: 0rem;
+    }
+    
+    #navbarDropdown {
+        color: #3A3A3A;
+        opacity: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 0rem;
+    }
+
+    .dsktp-mnu-1 {
+        display: none;
+    }
+
+    /* END OF HEADER STYLING FOR PHONE */
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+    .edveu-logo-text {     
+        font-weight: 700;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-size: 2em;
+        padding-top: 10px;
+        color: #3A3A3A;
+        text-decoration: none;
+        margin-right: 10rem;
+    }
+    
+    a:hover.header-signin-btn, a:active.header-signin-btn  {
+        color: #ffffff;
+    }
+    
+    .navbar-expand-lg .navbar-nav .dropdown-menu  {
+        border: 0px
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
+        color: #373D52;
+        opacity: 60%;
+        font-size: 18px;
+        margin-left: 2rem;
+    }
+    
+    #navbarDropdown {
+        color: #3A3A3A;
+        opacity: 100%;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nav-item:hover .dropdown-menu {
+        display: block;
+        margin-left: 0.5rem;
+    }
+
+    .dropdown-item {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .dropdown-item:hover {
+        background-color: transparent;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .navbar-expand-lg .navbar-collapse ul {
+        text-align: start;
+    }
+
+    /*.navbar-expand-lg:hover .navbar-nav:hover .dropdown-menu {
+        display: block;
+        margin-left: 2.5rem;
+    }*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media only screen and (min-width: 1400px) { ... }
+
+/********************************************** END HEADER STYLING *********************************************************/
+/********************************************** END HEADER STYLING *********************************************************/
+
+.intro-container {
+    max-width: 100%;
+    height: 50em; 
+    padding: 0;
+}
+
+.intro-row {
+    width: 100%; 
+    height: 100px; 
+    margin: 0; 
+    z-index: -4;
+    display: flex;
+}
 
 .shape1 {
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape1b.png); 
@@ -44,10 +476,7 @@ html {
     z-index: 0; 
     margin: 0; 
     padding: 0;
-}
-
-@media screen {
-    
+    background-color: tomato;
 }
 
 .top-left-div {
@@ -56,17 +485,52 @@ html {
     z-index: -4;
     padding-top: 5em;
     padding-left: 10em !important;
-    font-family: mont-thin;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: turquoise;
 }
 
-.top-left-div h2 {
+@media only screen and (min-width: 276px) and (max-width: 700px) {
+    .intro-container {
+        padding: 0;
+    }
+
+    .intro-row {
+        flex-direction: row-reverse;
+        margin: 0; 
+        z-index: -4;
+    }
+
+    .shape1 {
+        background-color: yellow;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape1b.png); 
+        background-position: right; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+        display: block;
+
+        z-index: 0; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    .top-left-div {
+        background-color: violet;
+    }
+}
+
+.top-left-div h2 { 
     font-size: 50px;
-    font-family: mont-thin;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
 }
 
 .top-left-div p {
     font-size: 24px;
-    font-family: mont-thin;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
 }
 
 .top-left-div button {
@@ -88,7 +552,10 @@ html {
     flex-grow: 0;
     margin: 48px 0px;
     color: white;
-    font-family: mont;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .who-edveu {
@@ -98,8 +565,11 @@ html {
 .who-edveu h1 {
     width: 100%;
     text-align: center;
-    font-family: mont-reg;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
     font-size: 48px;
+    lett
 }
 
 .who-edveu p {
@@ -263,201 +733,6 @@ html {
 }
 
 
-
-/* BODY STYLING */
-body {
-    font-family: 'mont', sans-serif;
-}
-
-body.build-recipes {
-    background-color: #67921D;
-}
-
-body.find-recipe {
-    background-color: #E3690E;
-}
-/* END BODY STYLING */
-
-/* HEADER STYLING */
-.altr-menu-color header {
-    color: white!important;
-}
-
-.bg-light {
-    background-color: transparent!important;
-}
-
-.navbar>.container-fluid {
-    display: block;
-    flex-wrap: inherit;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    background-color: transparent;
-}
-
-.top-menu-nav {
-    margin: 10px;
-    padding: 30px;
-}
-
-.top-menu-links {
-    align-items: left;
-    text-align: left;
-    justify-content: center;
-    color: #46444B;
-    font-weight: 300;
-}
-
-.navbar-nav {
-    padding-top: 0px;
-
-}
-
-a.nav-link {
-    padding-top: 20px;
-    color: #373D52;
-}
-
-.edveu-logo {     
-    font-family: 'Mont';
-    font-style: normal;
-    font-size: 2em;
-    padding-top: 10px;
-    padding-left: 10px;
-    color: #3A3A3A;
-    text-decoration: none;
-}
-
-.navbar-light .navbar-brand {
-    color: #464545;
-}
-
-.top-menu a.edveu-logo:hover {
-    color: #464545;
-    opacity: 100%;
-}
-
-ul.dropdown-menu {
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: transparent;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
-}
-
-a.dropdown-item:hover {
-    background-color: transparent;
-    color: #000000;
-}
-
-
-.dropdown-toggle::after {
-    margin-left: 0.255em !important;
-    vertical-align: 0.255em !important;
-    content: "" !important;
-    border: solid black !important;
-    border-width: 0 3px 3px 0 !important;
-    display: inline-block !important;
-    padding: 3px !important;
-    -webkit-transform: rotate(45deg) !important;
-}
-
-.dropdown-toggle {
-    font-family: 'mont-semibold';
-    font-size: 20px;
-    color: #3A3A3A !important;
-}
-
-.altr-menu-color .top-menu a.edveu-logo:hover {
-    color: white;
-    opacity: 100%;
-}
-
-.altr-menu-color .navbar-light .navbar-brand {
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #46444B;
-}
-
-.top-menu-links>.navbar-nav a.nav-link:hover {
-    color: #46444B;
-    opacity: 80%;
-}
-
-.altr-menu-color .top-menu-links>.navbar-nav a.nav-link:hover {
-    color: white;
-    opacity: 80%;
-}
-
-.altr-menu-color>.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
-.altr-menu-color>.top-menu a:hover, a:active {
-    color: white;
-    opacity: 50%;
-}
-
-.navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 0;
-}
-
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.90);
-    border-color: rgba(0,0,0,.9);
-}
-
-.altr-menu-color>.navbar-light .navbar-toggler {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.altr-menu-color>.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.top-menu-links-right a {
-    width: 140px;
-
-    /* Buttons */
-
-    font-family: mont-reg;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    text-align: center;
-
-	background-color:transparent;
-	border-radius:28px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	padding:10px 0px;
-	text-decoration:none;
-}
-
-
-.top-menu-links-right a:hover, a:active {
-    color: #ffffff;
-}
-
-/* END HEADER STYLING */
-
 .footer {
     max-width: 100% !important;
     padding-top: 10em;
@@ -522,12 +797,3 @@ ul.footer-menu {
     padding-top: 2em;
     font-family: mont-light;
 }
-
-
-
-
-
-
-
-
-
