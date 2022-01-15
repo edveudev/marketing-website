@@ -526,15 +526,11 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
     .top-left-div h2 { 
     font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Outfit', sans-serif;
     font-weight: 100;
     }
 
     .top-left-div p {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Outfit', sans-serif;
     font-weight: 100;
     }
 
@@ -557,8 +553,6 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     flex-grow: 0;
     margin: 48px 0px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     font-size: 1.2em;
     }
@@ -617,8 +611,8 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 .what-we-do h1 {
     width: 100%;
     text-align: center;
-    font-family: mont-reg;
     font-size: 48px;
+    font-weight: 400;
 }
 
 .what-we-do-row {
@@ -638,14 +632,14 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 }
 
 .what-we-do-text h3 {
-    font-family: mont-reg;
+    font-weight: 300;
     font-size: 24px;
     text-align: left;
     padding-left: 0px;
 }
 
 .what-we-do-text p {
-    font-family: mont-light;
+    font-weight: 100;
     font-size: 16px;
     text-align: left;
     padding-left: 0px;
@@ -673,8 +667,12 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     order: 1;
     flex-grow: 0;
     color: white;
-    font-family: mont;
+    font-weight: 600;
+    font-size: 1.2em;
 }
+
+
+
 
 
 .our-goals {
