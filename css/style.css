@@ -402,6 +402,88 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     /*********************************************** INTRO SECTION END ************************************************************/
 
     /* END OF HEADER STYLING FOR PHONE */
+
+
+    .what-we-do-container {
+        min-width: 0%;
+        margin: 0vh 0vh;
+    }
+    
+    .shape2 {
+        height: 0em !important;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/admin-presenter-div-shape2.png);
+        background-position: center; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+    }
+    
+    .what-we-do {
+        min-height: 10em;
+        padding-top: 2vh;
+    }
+    
+    .what-we-do h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+    }
+    
+    .what-we-do-row {
+        padding: 1em 0;
+        width: 100%;
+    }
+    
+    .what-we-do-icon {
+        text-align: center;
+        padding: 0em 0em !important;
+        height: 2em !important;
+    }
+    
+    .what-we-do-text {
+        padding: 1em 0;
+        height: 8em;
+    }
+    
+    .what-we-do-text h3 {
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center !important;
+        padding-left: 0px;
+    }
+    
+    .what-we-do-text p {
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center !important;
+        padding-left: 0px;
+    }
+    
+    .what-we-do-button {
+        padding: 0 2em;
+    }
+    
+    .what-we-do-button button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0px;
+        position: static;
+        width: 220px;
+        height: 56px;
+        left: 0px;
+        top: 282px;
+        background: linear-gradient(92.35deg, #52C6B1 15.49%, #52C680 93.22%);
+        border: 0;
+        border-radius: 30px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -617,7 +699,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
 .what-we-do-row {
     padding: 1em 0;
-    width: 110%;
+    width: 100%;
 }
 
 .what-we-do-icon {
