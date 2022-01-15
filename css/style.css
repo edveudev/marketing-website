@@ -40,6 +40,10 @@
     z-index: 100;
 }
 
+.bg-light {
+    background-color: transparent !important;
+}
+
 .edveu-logo-text {     
     font-weight: 700;
     letter-spacing: 0px;
@@ -137,7 +141,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
 .intro-container {
     max-width: 100%;
-    height: 50em; 
+    height: 70vh; 
     padding: 0;
 }
 
@@ -229,8 +233,8 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
 
 .who-edveu {
-    width: 100%;
-    margin: auto 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .who-edveu h1 {
@@ -247,10 +251,6 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     font-size: 20px;
     font-weight: 100;
 }
-
-
-
-
 
 /* ---------------------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------------------- */
 
@@ -324,6 +324,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
     .intro-container {
         padding: 0;
+        height: 130vh;
     }
 
     .intro-row {
@@ -348,7 +349,6 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     }
     
     .top-left-div {
-        z-index: -4;
         width: 100%; 
         z-index: -4;
         padding-top: 5vh;
@@ -379,7 +379,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
         width: 220px;
         height: 56px;
         left: 0px;
-        top: 282px;
+        top: 0px;
         background: linear-gradient(92.35deg, #52C6B1 15.49%, #52C680 93.22%);
         border: 0;
         border-radius: 30px;
@@ -565,6 +565,25 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     /*********************************************** INTRO SECTION END ************************************************************/
     /*********************************************** INTRO SECTION END ************************************************************/
     /*********************************************** INTRO SECTION END ************************************************************/
+
+    .who-edveu {
+        margin: auto 0;
+        position:static;
+    }
+    
+    .who-edveu h1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    
+    .who-edveu p {
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        font-size: 20px;
+        font-weight: 100;
+    }
 
 
 }
