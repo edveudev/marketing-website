@@ -167,13 +167,13 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 }
 
 .shape1 img {
-    width: 100%;
+    width: inherit;
+    max-width: inherit;
     background-position: right; 
     background-size: contain; 
     background-repeat: no-repeat;
     min-width: auto;
     top: -12vh;
-    right: -3vw;
     position: relative;
 }
 
@@ -324,7 +324,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
     .intro-container {
         padding: 0;
-        height: 130vh;
+        height: 115vh;
     }
 
     .intro-row {
@@ -340,6 +340,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     .shape1 {
         /*background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape1b.png);*/
         padding: 0;
+        width: 93%;
     }
 
     .shape1 img {
@@ -353,6 +354,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
         z-index: -4;
         padding-top: 5vh;
         padding-left: 10vw !important;
+        padding-right: 10vw !important;
     }
     
     .top-left-div h2 { 
@@ -386,7 +388,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
         flex: none;
         order: 1;
         flex-grow: 0;
-        margin: 48px 0px;
+        margin: 10px 0px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Outfit', sans-serif;
@@ -594,16 +596,22 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media only screen and (min-width: 1400px) { ... }
 
+.what-we-do-container {
+    min-width: 100%;
+    margin: 5vh 0vh;
+}
+
 .shape2 {
-    height: 40em !important; 
-    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape2a.png);
-    background-position: left; 
+    height: 40em !important;
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/admin-presenter-div-shape2.png);
+    background-position: center; 
     background-size: contain; 
     background-repeat: no-repeat; 
 }
 
 .what-we-do {
-    padding: 7em 10em 7em 10em;
+    min-height: 40em;
+    padding-top: 2vh;
 }
 
 .what-we-do h1 {
@@ -664,10 +672,10 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 48px 0px;
     color: white;
     font-family: mont;
 }
+
 
 .our-goals {
     height: 100%;
