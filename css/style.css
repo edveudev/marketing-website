@@ -271,6 +271,10 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     padding-top: 2vh;
 }
 
+.what-we-do-parent-row {
+    margin:  0 auto;
+}
+
 .what-we-do h1 {
     width: 100%;
     text-align: center;
@@ -332,6 +336,89 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     color: white;
     font-weight: 600;
     font-size: 1.2em;
+    margin-top: 30px;
+}
+
+
+.our-goals {
+    height: 100%;
+    margin-top: 15em;
+    margin-bottom: 8em;
+}
+
+.our-goals h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 1em;
+    font-weight: 400;
+}
+
+.our-goals h3 {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.our-goals p {
+    padding-bottom: 1em;
+    font-weight: 100;
+}
+
+.shape3 {
+    height: 40em !important; 
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/students-gathering-div-shape3.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.divider1 {
+    height: 20em;
+    margin-top: 10em;
+    margin-bottom: -5em;
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape4.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.solutions {
+    height: auto;
+}
+
+.solutions h1 {
+    width: 100%;
+    text-align: center;
+    font-family: mont-reg;
+    font-size: 48px;
+    padding-bottom: 1em;
+}
+
+.solutions-block {
+    background: rgba(226, 240, 255, 0.72);
+    border-radius: 30px;
+    margin: 1em 1em 1em 0;
+    padding: 1em 0;
+}
+
+.solutions h3 {
+    font-family: mont-reg;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.solutions p {
+    font-family: mont-light;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.solutions svg {
+    margin-top: 2em;
 }
 
 /* ---------------------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------------------- */
@@ -604,9 +691,91 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
         margin: 0 auto;
     }
 
-    .solutions {
-        background-color: khaki;
+
+
+    .our-goals {
+        height: 100%;
+        margin-top: 45em;
+        margin-bottom: 8em;
     }
+
+    .our-goals-blocks {
+        text-align: center;
+    }
+    
+    .our-goals h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        padding-bottom: 1em;
+        font-weight: 400;
+    }
+    
+    .our-goals h3 {
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+        font-weight: 400;
+    }
+    
+    .our-goals p {
+        padding-bottom: 1em;
+        font-weight: 100;
+    }
+
+
+    .divider1 {
+        height: 20em;
+        margin-top: 30em;
+        margin-bottom: -5em;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape4.png);
+        background-position: left; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+    }
+    
+    .solutions {
+        height: auto;
+    }
+    
+    .solutions h1 {
+        width: 100%;
+        text-align: center;
+        font-family: mont-reg;
+        font-size: 48px;
+        padding-bottom: 1em;
+    }
+    
+    .solutions-block {
+        background: rgba(226, 240, 255, 0.72);
+        border-radius: 30px;
+        margin: 1em 1em 1em 0;
+        padding: 1em 0;
+    }
+    
+    .solutions h3 {
+        font-family: mont-reg;
+        font-size: 24px;
+        text-align: left;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    
+    .solutions p {
+        font-family: mont-light;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 0px;
+    }
+    
+    .solutions svg {
+        margin-top: 2em;
+    }
+
+
+
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -801,86 +970,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
 
 
-.our-goals {
-    height: 100%;
-    margin-top: 15em;
-    margin-bottom: 8em;
-}
 
-.our-goals h1 {
-    width: 100%;
-    text-align: center;
-    font-family: mont-reg;
-    font-size: 48px;
-    padding-bottom: 1em;
-}
-
-.our-goals h3 {
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    font-family: mont-reg;
-}
-
-.our-goals p {
-    padding-bottom: 1em;
-    font-family: mont-light;
-}
-
-.shape3 {
-    height: 40em !important; 
-    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape3a.png);
-    background-position: left; 
-    background-size: contain; 
-    background-repeat: no-repeat; 
-}
-
-.divider1 {
-    height: 20em;
-    margin-top: 10em;
-    margin-bottom: -5em;
-    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/shape4.png);
-    background-position: left; 
-    background-size: contain; 
-    background-repeat: no-repeat;
-}
-
-.solutions {
-    height: auto;
-}
-
-.solutions h1 {
-    width: 100%;
-    text-align: center;
-    font-family: mont-reg;
-    font-size: 48px;
-    padding-bottom: 1em;
-}
-
-.solutions-block {
-    background: rgba(226, 240, 255, 0.72);
-    border-radius: 30px;
-    margin: 1em 1em 1em 0;
-    padding: 1em 0;
-}
-
-.solutions h3 {
-    font-family: mont-reg;
-    font-size: 24px;
-    text-align: left;
-    padding-left: 0px;
-    padding-top: 10px;
-}
-
-.solutions p {
-    font-family: mont-light;
-    font-size: 16px;
-    text-align: left;
-    padding-left: 0px;
-}
-
-.solutions svg {
-    margin-top: 2em;
-}
 
 
 .footer {
