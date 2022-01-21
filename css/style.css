@@ -384,8 +384,8 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 }
 
 
-.contact-us-shape1 {
-    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/contact-us-div-shape1.png);
+.contact-shape1 {
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/contact-div-shape1.png);
     background-position: right; 
     background-size: contain; 
     background-repeat: no-repeat; 
@@ -398,7 +398,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     position: absolute;  
 }
 
-.contact-us-form {
+.contact-form {
     background-color: #FFFFFF;
     align-items: center;
     padding: 24px;
@@ -412,11 +412,11 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     z-index: 10 !important;
 }
 
-.contact-us-form form {
+.contact-form form {
     z-index: 10 !important;
 }
 
-.contact-us-form button {
+.contact-form button {
     display: flex;
     flex-direction: row;
     justify-content: center;
