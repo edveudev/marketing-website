@@ -701,6 +701,7 @@ ul.footer-menu {
     .top-left-div h2 { 
         font-size: 50px;
         font-weight: 100;
+        width: fit-content;
     }
     
     .top-left-div p {
@@ -708,6 +709,7 @@ ul.footer-menu {
         font-family: 'Montserrat', sans-serif;
         font-family: 'Outfit', sans-serif;
         font-weight: 100;
+        width: fit-content;
     }
     
     .top-left-div button {
@@ -740,6 +742,8 @@ ul.footer-menu {
     .who-edveu {
         width: 100%;
         margin-top: 6vh;
+        margin: 0;
+        padding-left: 10vw !important;
     }
     
     .who-edveu h1 {
@@ -747,6 +751,7 @@ ul.footer-menu {
         text-align: center;
         font-weight: 400;
         font-size: 48px;
+        text-align: left;
     }
     
     .who-edveu p {
@@ -755,6 +760,7 @@ ul.footer-menu {
         margin: auto 0;
         font-size: 20px;
         font-weight: 100;
+        text-align: left;
     }
 
     /* END OF HEADER STYLING FOR PHONE */
@@ -843,6 +849,30 @@ ul.footer-menu {
         font-weight: 600;
         font-size: 1.2em;
         margin: 0 auto;
+    }
+
+    .get-started-button a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0px;
+        position: static;
+        width: 220px;
+        height: 56px;
+        left: 0px;
+        top: 282px;
+        border: 0;
+        border-radius: 30px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2em;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-decoration: none;
     }
 
     .our-advantages {
