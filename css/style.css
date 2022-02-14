@@ -385,7 +385,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 
 
 .contact-shape1 {
-    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/contact-div-shape1.png);
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/contact-us-div-shape1.png);
     background-position: right; 
     background-size: contain; 
     background-repeat: no-repeat; 
@@ -440,9 +440,155 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     text-decoration: none;
 }
 
+.about-us-intro {
+    max-width: 100%;
+    height: 20vh; 
+    padding: 0;
+}
 
 .about-us-shape1  {
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape1.png);
+    background-position: right; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 30em; 
+    top: 0em;
+    z-index: 0; 
+    margin: 0; 
+    padding: 0;
+    position: absolute; 
+}
+
+.about-us-shape2  {
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape2.png);
+    background-position: left; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 15em; 
+    top: 15em;
+    z-index: 0; 
+    margin: 0; 
+    padding: 0;
+    position: absolute; 
+}
+
+.about-us-paragraph {
+    max-width: 70% !important;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.about-us-paragraph h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.about-us-paragraph p {
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.our-competencies {
+    height: 100%;
+    margin-top: 10em;
+    margin-bottom: 0em;
+}
+
+.our-competencies h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 1em;
+    font-weight: 400;
+}
+
+.our-competencies h3 {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.our-competencies p {
+    padding-bottom: 1em;
+    font-weight: 100;
+}
+
+.about-us-divider1 {
+    padding-top: 10vh;
+    height: 25em;
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape3.png);
+    background-position: right; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.about-us-shape4-left {
+    height: 40em !important;
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape4.png);
+    background-position: center; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.about-us-shape4-right {
+    padding-top: 15vh;
+    padding-right: 15vw;
+    padding-left: 5vw;
+}
+
+.about-us-shape4-right h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.about-us-shape4-right p {
+    padding-bottom: 1em;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.about-us-shape5-right {
+    height: 40em !important;
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape5.png);
+    background-position: center; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.about-us-shape5-left {
+    padding-top: 10vh;
+    padding-right: 5vw;
+    padding-left: 15vw;
+}
+
+.about-us-shape5-left h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+.about-us-shape5-left p {
+    padding-bottom: 1em;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+/* SECTION Reporting Tool  START */
+
+.reporting-tool-shape1 {
+    background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/reporting-tool-div-shape1.png);
     background-position: right; 
     background-size: contain; 
     background-repeat: no-repeat; 
@@ -452,8 +598,10 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     z-index: 0; 
     margin: 0; 
     padding: 0;
-    position: absolute; 
+    position: absolute;
 }
+
+/* SECTION Reporting Tool  END */
 
 /* SECTION FOOTER START */
 .footer {
