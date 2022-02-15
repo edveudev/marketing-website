@@ -392,10 +392,35 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     width: 100%; 
     height: 40em; 
     top: 0em;
-    z-index: 0; 
     margin: 0; 
     padding: 0;
     position: absolute;  
+}
+
+.contact-top-left-div {
+    height: 60vh;
+    width: 100%;
+    z-index: 100;
+    padding-top: 5em;
+    padding-left: 12vw;
+    margin: auto;
+}
+
+.contact-top-left-div h2 { 
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    width: 50%;
+}
+
+.contact-top-left-div p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    width: 50%;
+    padding-right: 2rem;
 }
 
 .contact-form {
@@ -409,11 +434,11 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     position: relative;
     max-width: 497px;
     margin-top: 15vh;
-    z-index: 10 !important;
+    z-index: 100 !important;
 }
 
 .contact-form form {
-    z-index: 10 !important;
+    z-index: 100 !important;
 }
 
 .contact-form button {
@@ -444,6 +469,13 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     max-width: 100%;
     height: 20vh; 
     padding: 0;
+}
+
+.about-intro-row {
+    width: 100%; 
+    height: 100px; 
+    margin: 0; 
+    z-index: -4;
 }
 
 .about-us-shape1  {
@@ -521,12 +553,43 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
 }
 
 .about-us-divider1 {
+    min-width: 100%;
+}
+
+.our-history {
     padding-top: 10vh;
     height: 25em;
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape3.png);
     background-position: right; 
     background-size: contain; 
     background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+.our-history-paragraph {
+    max-width: 70% !important;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.our-history-paragraph h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.our-history-paragraph p {
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.about-us-shape4-container {
+    min-width: 100%;
+    margin: 5vh 0vh;
 }
 
 .about-us-shape4-left {
@@ -812,8 +875,7 @@ ul.footer-menu {
         width: fit-content;
         height: auto;
         margin: 0; 
-        z-index: -4;
-        
+        z-index: -4; 
     }
     
     .shape1 {
@@ -1117,6 +1179,215 @@ ul.footer-menu {
     
     .solutions svg {
         margin-top: 2em;
+    }
+
+    /* SECTION ABOUT PAGE MOBILE START */
+    .about-us-intro {
+        max-width: auto;
+        height: auto; 
+        padding: auto;
+    }
+
+    .about-intro-row {
+        display: flex; 
+        flex-direction: column-reverse;
+        height: auto;
+        margin: 0; 
+        z-index: -4; 
+    }
+    
+    .about-us-shape1  {
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape1.png);
+        background-position: right; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height: 18em; 
+        top: 0em;
+        z-index: 0; 
+        margin: 0; 
+        padding: 0;
+        position: relative;
+    }
+    
+    .about-us-shape2  {
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape2.png);
+        background-position: left; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+        width: 100%; 
+        height: 10em; 
+        top: 10vh;
+        z-index: -4; 
+        margin: 0; 
+        padding: 0;
+        position: relative; 
+
+    }
+
+    .about-us-paragraph-row {
+        margin-top: -20vh;
+        z-index: 100;
+    }
+    
+    .about-us-paragraph {
+        max-width: 70% !important;
+        margin: 0 auto;
+        padding-top: 0vh;
+        z-index: 100;
+        position: relative;
+    }
+    
+    .about-us-paragraph h1 {
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    
+    .about-us-paragraph p {
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    
+    .our-competencies {
+        height: 100%;
+        margin-top: 5vh;
+        margin-bottom: 0em;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .our-competencies h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        padding-bottom: 1em;
+        font-weight: 400;
+    }
+    
+    .our-competencies h3 {
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+        font-weight: 400;
+    }
+    
+    .our-competencies p {
+        padding-bottom: 1em;
+        font-weight: 100;
+    }
+
+    .about-us-divider1 {
+        min-width: 100%;
+        min-height: 65vh;
+    }
+    
+    .our-history {
+        padding-top: 0vh;
+        height: 15em;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape3.png);
+        background-position: right; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+        min-width: 100%;
+    }
+
+    .our-history-paragraph {
+        height: 50vh !important;
+        min-height: 70vh;
+    }
+    
+    .our-history-paragraph h1 {
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    
+    .our-history-paragraph p {
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        font-size: 24px;
+        font-weight: 100;
+        min-height: 70vh;
+    }
+
+    .about-us-shape4-container {
+        min-width: 100%;
+        margin: 0vh 0vh;
+    }
+    
+    .about-us-shape4-left {
+        height: 30em !important;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape4.png);
+        background-position: center; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .about-us-shape4-right {
+        padding-top: 2vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    
+    .about-us-shape4-right h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        padding-bottom: 2vh;
+    }
+    
+    .about-us-shape4-right p {
+        padding-bottom: 1em;
+        font-weight: 100;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-us-shape5 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 35vh;
+    }
+    
+    .about-us-shape5-right {
+        height: 25em !important;
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/about-us-div-shape5.png);
+        background-position: center; 
+        background-size: contain; 
+        background-repeat: no-repeat;
+        position: relative;
+
+    }
+    
+    .about-us-shape5-left {
+        padding-top: 5vh;
+        padding-right: 5vw;
+        padding-left: 15vw;
+        position: relative;
+        min-height: 65em;
+
+    }
+    
+    .about-us-shape5-left h1 {
+        width: 100%;
+        text-align: left;
+        font-size: 48px;
+        font-weight: 400;
+        padding-bottom: 2vh;
+    }
+    
+    .about-us-shape5-left p {
+        padding-bottom: 1em;
+        font-weight: 100;
+        font-size: 24px;
     }
 
 
