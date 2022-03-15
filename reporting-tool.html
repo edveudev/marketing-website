@@ -14,8 +14,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
+    
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -25,6 +24,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
 
 </head>
 
@@ -96,12 +97,12 @@
     </div>
 
     <div class="container-video" style="margin: 0 auto; max-width: 50%; border:3px solid #FFFFFF; border-radius: 25px; overflow: hidden;">
-        <video style="background-color: #FFFFFF;" id="player" playsinline controls data-poster="https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/reporting-tool-video-poster.png">
+        <video style="background-color: #FFFFFF;" id="player" controls crossorigin playsinline data-poster="https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/reporting-tool-video-poster.png">
             <source src="https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/videos/EdVeu-Reporting-Tool.mp4" type="video/mp4" />
-            <source src="/path/to/video.webm" type="video/webm" />
+
           
             <!-- Captions are optional -->
-            <track kind="captions" label="English captions" src="https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/videos/reporting-tool-video-cc.en.vtt" srclang="en" default />
+            <track kind="captions" label="English captions" src="https://edveudev.github.io/marketing-website/reporting-tool-video-cc.en.vtt" srclang="en" default />
           </video>
     </div>
 
@@ -167,8 +168,6 @@
             </div>
         </div>
     </div>
-
-
 
     <div class="container our-goals">
 
@@ -282,16 +281,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-    <div class="divider1"></div>
 
     <div class="container solutions">
         <h1>Solutions</h1>
@@ -435,9 +424,9 @@
     </div>
     <!-- END FOOTER -->
 
-    <script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
-    <script src='https://unpkg.com/plyr@3'></script>
-    <script  src="/javascript/videoplayer.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/plyr@3" crossorigin="anonymous"></script>
+    <script  src="/javascript/videoplayer.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
