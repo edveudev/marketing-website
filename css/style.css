@@ -664,6 +664,11 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     position: absolute;
 }
 
+.plyr__poster {
+   
+    background-color: #ffffff !important;
+}
+
 /* SECTION Reporting Tool  END */
 
 
