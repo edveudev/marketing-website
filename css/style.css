@@ -1,3 +1,4 @@
+/* ANCHOR GENERAL: MENU */
 
 * {
     font-family: 'Outfit', sans-serif;
@@ -103,8 +104,8 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     margin-left: 2rem !important;
 }
 
+/* ANCHOR INDEX SYTLING */
 
-/* SECTION INTRO START */
 .edveu-intro {
     max-width: 100%;
     height: 70vh; 
@@ -193,7 +194,6 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     text-decoration: none;
 }
 
-/* SECTION INTRO END */
 .who-edveu {
     max-width: 70% !important;
     margin: 0 auto;
@@ -383,7 +383,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     margin-top: 2em;
 }
 
-
+/* ANCHOR CONTACT US STYLING */
 .contact-shape1 {
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/contact-us-div-shape1.png);
     background-position: right; 
@@ -465,6 +465,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     text-decoration: none;
 }
 
+/* ANCHOR ABOUT US STYLING */
 .about-us-intro {
     max-width: 100%;
     height: 20vh; 
@@ -648,7 +649,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     font-size: 24px;
 }
 
-/* SECTION Reporting Tool  START */
+/* ANCHOR REPORTING TOOL STYLING */
 
 .reporting-tool-shape1 {
     background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/reporting-tool-div-shape1.png);
@@ -664,15 +665,58 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     position: absolute;
 }
 
+.container-video {
+    margin: 0 auto; 
+    max-width: 60%; 
+    border:3px solid #FFFFFF; 
+    border-radius: 25px; 
+    overflow: hidden;
+}
+
 .plyr__poster {
-   
     background-color: #ffffff !important;
 }
 
-/* SECTION Reporting Tool  END */
+.reporting-advantages {
+    height: auto;
+    padding-top: 5vh;
+}
 
+.reporting-advantages h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 1vh;
+}
 
-/* SECTION HELP START */
+.solutions-block {
+    background: rgba(226, 240, 255, 0.72);
+    border-radius: 30px;
+    margin: 1em 1em 1em 0;
+    padding: 1em 0;
+}
+
+.reporting-advantages h3 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.reporting-advantages p {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.reporting-advantages svg {
+    margin-top: 2em;
+}
+
+/* ANCHOR HELP CENTER STYLING */
 
 .help-center {
     height: 40vh;
@@ -693,8 +737,7 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     position: absolute;
 }
 
-
-/* SECTION FOOTER START */
+/* ANCHOR FOOTER STYLING */
 .footer {
     max-width: 100% !important;
     padding-top: 4em;
@@ -805,18 +848,18 @@ ul.footer-menu {
     color: #3473E4;
 }
 
-/* SECTION FOOTER END */
 
-/* ---------------------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------------------- */
+/* SECTION  LAPTOP MEDIA QUERY */
 
 @media only screen and (min-width: 1028px) {
-    
+
+/* !SECTION */ 
 }
 
-
+/* SECTION PHONE MEDIA QUERY */
 /* Small devices (landscape phones, 576px and up)*/
 @media only screen and (max-width: 767px) and (min-width: 276px)  {
-    /* HEADER STYLING FOR PHONE */
+    /* NOTE HEADER STYLING FOR PHONE */
     .edveu-logo-text {
         margin-right: 0rem;
     }
@@ -890,7 +933,7 @@ ul.footer-menu {
         margin-right: auto;
     }
 
-    /* SECTION INTRO MOBILE START */
+    /* NOTE INDEX MOBILE STYLYING */
     .edveu-intro {
         max-width: auto;
         height: auto; 
@@ -975,13 +1018,11 @@ ul.footer-menu {
         font-size: 1.2em;
     }
 
-    /* SECTION INTRO MOBILR END */
-
     .who-edveu {
-        width: 100%;
+        min-width: 100%;
         margin-top: 6vh;
         margin: 0;
-        padding-left: 10vw !important;
+        padding: 0vw 10vw 0vw 10vw!important;
     }
     
     .who-edveu h1 {
@@ -1000,9 +1041,6 @@ ul.footer-menu {
         font-weight: 100;
         text-align: left;
     }
-
-    /* END OF HEADER STYLING FOR PHONE */
-
 
     .what-we-do-container {
         
@@ -1209,7 +1247,7 @@ ul.footer-menu {
         margin-top: 2em;
     }
 
-    /* SECTION ABOUT PAGE MOBILE START */
+    /* NOTE ABOUT PAGE MOBILE STYLING */
     .about-us-intro {
         max-width: auto;
         height: auto; 
@@ -1418,6 +1456,8 @@ ul.footer-menu {
         font-size: 24px;
     }
 
+    /* NOTE HELP CENTER MOBILE STYLING */
+
     .help-shape1 {
         background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/help-div-shape1.png);
         background-position: center; 
@@ -1432,7 +1472,72 @@ ul.footer-menu {
         position: relative; 
     }
 
-    /* SECTION FOOTER MOBILE START */
+    /* NOTE REPORTING TOOL MOBILE STYLING */
+    .reporting-tool-shape1  {
+        background-image: url(https://marketingsiteassets2.s3.us-east-2.amazonaws.com/assets/images/reporting-tool-div-shape1.png);
+        background-position: right; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height: 25em; 
+        top: 0em;
+        z-index: 0; 
+        margin: 0; 
+        padding: 0;
+        position: relative;
+    }
+
+    .container-video {
+        margin: 0 auto; 
+        max-width: 100%; 
+        border: 0px solid #FFFFFF; 
+        border-radius: 0px; 
+        overflow: auto;
+    }
+
+    .reporting-advantages {
+        height: auto;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    
+    .reporting-advantages h1 {
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 48px;
+        padding-bottom: 1vh;
+    }
+    
+    .solutions-block {
+        background: rgba(226, 240, 255, 0.72);
+        border-radius: 30px;
+        margin: 0em 1em 1em 1em;
+        padding: 1em 0;
+        text-align: center;
+        width: fit-content;
+    }
+    
+    .reporting-advantages h3 {
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    
+    .reporting-advantages p {
+        font-weight: ;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    
+    .reporting-advantages svg {
+        margin-top: 2em;
+    }
+
+    /* NOTE FOOTER MOBILE STYLING */
     .footer {
         max-width: 100% !important;
         padding-top: 0em;
@@ -1538,14 +1643,14 @@ ul.footer-menu {
         text-decoration: none;
         color: #3473E4;
     }
-
-    /* SECTION FOOTER MOBILE END */
-
-
+/* !SECTION */
 }
 
+/* SECTION TABLET MEDIA QUERY */
 /* Medium devices (tablets, 768px and up)*/
 @media only screen and (min-width: 768px) {
+
+    /* NOTE HEADER TABLET STYLING */ 
     .edveu-logo-text {     
         font-weight: 700;
         letter-spacing: 0px;
