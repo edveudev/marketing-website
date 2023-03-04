@@ -465,6 +465,30 @@ a:hover.header-signin-btn, a:active.header-signin-btn  {
     text-decoration: none;
 }
 
+.contact-form-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    position: static;
+    width: 220px;
+    height: 56px;
+    left: 0px;
+    top: 282px;
+    background: linear-gradient(92.35deg, #52C6B1 15.49%, #52C680 93.22%);
+    border: 0;
+    border-radius: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
 /* ANCHOR ABOUT US STYLING */
 .about-us-intro {
     max-width: 100%;
