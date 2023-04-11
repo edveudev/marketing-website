@@ -11,6 +11,17 @@
 
       gtag('config', 'G-PPX2SHN125');
     </script>
+    
+    <!-- captcha -->
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeKQHklAAAAANumzNsjB66dJvq4Pi-9ly-dTVuG"></script>
+    <script>
+    grecaptcha.enterprise.ready(function() {
+        grecaptcha.enterprise.execute('6LeKQHklAAAAANumzNsjB66dJvq4Pi-9ly-dTVuG', {action: 'login'}).then(function(token) {
+           ...
+        });
+    });
+    </script>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
